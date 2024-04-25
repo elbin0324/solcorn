@@ -3,62 +3,68 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Based Happy</title>
+<title>Based Luna</title>
 <style>
-  body {
-    background-color: #87CEEB; /* Sky Blue */
-    margin: 0; /* Remove default margin */
+  body, html {
+    height: 100%; /* Full height */
+    margin: 0; /* No margins */
     font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    background-color: #87CEEB; /* Sky Blue */
   }
   .main-container {
-    background-color: #6A5ACD; /* Deeper Blue */
-    padding: 50px 0; /* Padding for top and bottom */
-    margin-top: 10%; /* Space from the top */
+    background-color: #4169E1; /* A shade of blue */
+    text-align: center; /* Center text */
+    width: 100%;
+    box-sizing: border-box;
   }
   h1 {
-    font-size: 3em; /* Increased font size */
-    font-weight: bold; /* Make text bold */
-    color: white; /* Text color */
+    font-size: 3em;
+    font-weight: bold;
+    color: white;
+    margin: 0;
   }
   p {
-    color: white; /* Text color */
-    margin-bottom: 3em; /* Increased space below paragraph */
+    color: white;
+    margin: 20px 0 30px; /* Spacing around paragraph */
   }
   .button {
-    background-color: #6A5ACD; /* Same as container background */
+    background-color: #4169E1; /* Match the deeper blue color */
     border: 2px solid white; /* White border */
     color: white;
-    padding: 15px 30px; /* Button padding */
-    text-align: center;
+    padding: 15px 30px;
+    font-size: 20px;
     text-decoration: none;
     display: inline-block;
-    font-size: 20px; /* Font size */
-    margin-bottom: 3em; /* Space below button */
     cursor: pointer;
+  }
+  .bottom-section {
+    color: white;
+    padding: 30px 0; /* Spacing for bottom links section */
   }
   .links {
     color: white;
     text-decoration: none;
     padding: 0 10px;
+    display: inline-block; /* Align links inline */
   }
-  .bottom-section {
-    padding-top: 50px; /* Space for bottom links section */
+  img {
+    width: 50px; /* Adjust as needed */
+    height: auto;
+    margin-bottom: 10px; /* Space between image and title */
   }
 </style>
 </head>
 <body>
 
 <div class="main-container">
-  <!-- Small picture at the top -->
-  <img src="meow.jpg" alt="Meow" style="width: 50px; height: auto;">
-
-  <h1>BASED Happy</h1>
+  <img src="meow.png" alt="Meow" />
+  <h1>BASED LUNA</h1>
   <p>ARE YOU READY TO GO TO THE MOON?</p>
-
-  <!-- Update the 'onclick' value with the URL you want to redirect to -->
   <button class="button" onclick="window.location.href='https://your-redirect-url.com';">JOIN THE MISSION</button>
-</div>
-
+  
 <div class="bottom-section">
   <p>BASE CA: </p>
 
